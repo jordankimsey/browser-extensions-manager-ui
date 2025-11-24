@@ -1,6 +1,7 @@
-@import url("https://fonts.google.com/noto/specimen/Noto+Sans");
 @import "tailwindcss";
 @plugin "@tailwindcss/forms";
+
+@import url("https://fonts.google.com/noto/specimen/Noto+Sans");
 
 @custom-variant dark (&:where(.dark, .dark *));
 /* - **Mobile**: 375px
